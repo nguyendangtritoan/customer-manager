@@ -15,7 +15,6 @@ import static com.example.demo.model.Tables.TOKEN;
 import static com.example.demo.model.Tables._USER;
 
 @RequiredArgsConstructor
-@Transactional
 @Repository
 public class TokenRepository {
 

@@ -13,7 +13,6 @@ import java.util.Optional;
 import static com.example.demo.model.Tables._USER;
 
 @RequiredArgsConstructor
-@Transactional
 @Repository
 public class UserRepository implements JOOQRepository<User> {
 
